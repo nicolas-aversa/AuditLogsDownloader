@@ -129,14 +129,12 @@ Siga los siguientes pasos en orden para configurar la solución completa.
 6.  Aumente **Initialization Timeout** a **`30` segundos** (el .zip es grande y tarda en cargar).
 7.  En **"Environment Variables"**, añada las siguientes variables:
 
-| `HUAWEI_CLOUD_AK` | `xxxxxx` | Access Key de IAM |
-| `HUAWEI_CLOUD_SK` | `xxxxxx` | Secret Key de IAM |
-| `HUAWEI_CLOUD_PROJECT_ID` | `xxxxxx` | ID del proyecto regional |
-| `RDS_INSTANCE_ID` | `rds-xxxxxx` | ID de la instancia RDS |
-| `RDS_REGION` | `la-south-2` | Región donde se encuentra la instancia |
-| `OBS_BUCKET_NAME` | `mi-bucket-de-logs` | Nombre del bucket destino en OBS |
-
-8.  Haga clic en **Save** en la parte superior.
+*   **`HUAWEI_CLOUD_AK`**: `xxxxxx` (Access Key de IAM)
+*   **`HUAWEI_CLOUD_SK`**: `xxxxxx` (Secret Key de IAM)
+*   **`HUAWEI_CLOUD_PROJECT_ID`**: `xxxxxx` (ID del proyecto regional)
+*   **`RDS_INSTANCE_ID`**: `rds-xxxxxx` (ID de la instancia RDS)
+*   **`RDS_REGION`**: `la-south-2` (Región donde se encuentra la instancia)
+*   **`OBS_BUCKET_NAME`**: `mi-bucket-de-logs` (Nombre del bucket destino en OBS)
 
 ---
 
