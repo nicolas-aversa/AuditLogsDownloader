@@ -132,10 +132,14 @@ Siga los siguientes pasos en orden para configurar la solución completa.
 *   **`HUAWEI_CLOUD_AK`**: `xxxxxx` (Access Key de IAM)
 *   **`HUAWEI_CLOUD_SK`**: `xxxxxx` (Secret Key de IAM)
 *   **`HUAWEI_CLOUD_PROJECT_ID`**: `xxxxxx` (ID del proyecto regional)
-*   **`RDS_INSTANCE_ID`**: `rds-xxxxxx` (ID de la instancia RDS)
-*   **`RDS_REGION`**: `la-south-2` (Región donde se encuentra la instancia)
-*   **`OBS_BUCKET_NAME`**: `mi-bucket-de-logs` (Nombre del bucket destino en OBS)
 
+    *Para obtener estas credenciales:*
+    1.  Haga clic en el nombre de su cuenta (esquina superior derecha).
+    2.  Seleccione **My Credentials**.
+
+*   **`RDS_INSTANCE_ID`**: `rds-xxxxxx` (ID de la instancia RDS)
+*   **`RDS_REGION`**: `la-south-2` (Región de la instancia RDS)
+*   **`OBS_BUCKET_NAME`**: `mi-bucket-de-logs` (Nombre del bucket destino en OBS)
 ---
 
 ### **6️⃣ Automatizar (Configurar el Trigger)**
